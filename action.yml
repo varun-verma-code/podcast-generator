@@ -1,4 +1,4 @@
-name: "Podcast Generator"
+name: "GHA based Podcast Generator"
 author: "Varun Verma"
 description: "Generates a feed for a podcast from a YAML file"
 runs:
