@@ -1,5 +1,9 @@
 FROM ubuntu:latest
 
+# python3 is used to execute the python script
+# pythong3-pip is used to download the PyYAML dependency
+# ssh is required to execute ssh-keyscan
+# git is required to pull and push files from/to repos
 RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip \
