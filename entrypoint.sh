@@ -10,5 +10,5 @@ python3 /usr/bin/feed.py
 
 # Push the newly created file to GitHub repo
 git add -A && git commit -m "Update feed"
-git push --set-upstream origin main
+git push --set-upstream origin master
 echo "============================="
