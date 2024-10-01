@@ -3,7 +3,7 @@
 echo "============================="
 git config --global user.name "#{GITHUB_ACTOR}"
 git config --global user.email "#{INPUT_EMAIL}"
-git config --global --ADD SAFE.DIRECTORY /GITHUB/workspace
+git config --global --add SAFE.DIRECTORY /GITHUB/workspace
 
 # Execute the feed.py script to create the podcast.xml file
 python3 /usr/bin/feed.py
